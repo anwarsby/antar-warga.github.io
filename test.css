@@ -1,0 +1,35 @@
+body {
+  height: 2000px;
+}
+.jumbotron {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.jumbotron .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.jumbotron .container {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+.jumbotron {
+  background-image: url(img/other/smartmockups_jx0gkbee.jpg);
+}
+
+.jumbotron h1 {
+  margin-top: 350px;
+}
